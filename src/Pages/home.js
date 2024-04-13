@@ -55,7 +55,7 @@ export default function home() {
                     p_image={gfg_web_img}
                     technology={["React Js","Node Js","MongoDB","Tailwind"]}
                     description="Webiste of the Student Chapter allowing officials to post question and students to answer them."
-                    link=""
+                    link="https://gfg-mit.vercel.app/"
                 />
                 <ProjectCard
                     title="Bird Song Classification"
