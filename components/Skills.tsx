@@ -8,7 +8,7 @@ export default function Skills() {
       primary: true,
       skills: [
         'CI/CD Pipelines', 'Jenkins', 'GitLab CI',
-        'Docker', 'Linux Systems', 'Bash Scripting'
+        'Docker', 'Kubernetes', 'Linux Systems', 'Bash Scripting'
       ]
     },
     {
