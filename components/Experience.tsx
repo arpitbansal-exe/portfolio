@@ -49,9 +49,9 @@ export default function Experience() {
           {/* Vertical line */}
           <div className="absolute left-8 top-6 bottom-0 w-0.5 bg-gradient-to-b from-[#00d4ff] via-[#0080ff] to-[#1a2942]" />
 
-          <div className="space-y-12">
+          <div className="space-y-6">
             {experiences.map((exp, idx) => (
-              <div key={idx} className="relative pl-32">
+              <div key={idx} className="relative pl-16 md:pl-24 lg:pl-32">
                 {/* Timeline dot */}
                 <div className="absolute left-8 top-6 -translate-x-1/2">
                   {exp.current ? (
