@@ -74,21 +74,6 @@ export default function Growth() {
             </div>
           ))}
         </div>
-
-        {/* Call to action */}
-        <div className="mt-16 text-center">
-          <div className="inline-block p-8 rounded-2xl bg-[#0a1120]/60 backdrop-blur-sm border border-[#00d4ff]/30">
-            <p className="text-lg text-[#a8c5e0] mb-6">
-              Interested in building reliable, scalable systems together?
-            </p>
-            <button 
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-8 py-4 bg-gradient-to-r from-[#00d4ff] to-[#0080ff] text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-[#00d4ff]/50 transition-all duration-300 hover:scale-105"
-            >
-              Let's Connect
-            </button>
-          </div>
-        </div>
       </div>
     </section>
   );
